@@ -14,11 +14,11 @@ public class WebController {
 
     @RequestMapping("/save")
     public String process(){
-        repository.save(new tuserdetails("Jack", "Smith"));
-        repository.save(new tuserdetails("Adam", "Johnson"));
-        repository.save(new tuserdetails("Kim", "Smith"));
-        repository.save(new tuserdetails("David", "Williams"));
-        repository.save(new tuserdetails("Peter", "Davis"));
+        repository.save(new tuserdetails("si1", "Normal","sweden","netent"));
+        repository.save(new tuserdetails("si1", "Normal","sweden","netent"));
+        repository.save(new tuserdetails("si1", "Normal","sweden","netent"));
+        repository.save(new tuserdetails("si1", "Normal","sweden","netent"));
+        repository.save(new tuserdetails("si1", "Normal","sweden","netent"));
         return "Done";
     }
 
